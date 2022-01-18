@@ -3,7 +3,7 @@ import { URL } from 'url';
 import fs from 'fs';
 import path from 'path';
 
-import { createTree } from '../libs/create_tree';
+import { createTree } from '../libs/create_tree.js';
 
 /* eslint-disable no-underscore-dangle */
 const __dirname = new URL('.', import.meta.url).pathname;
