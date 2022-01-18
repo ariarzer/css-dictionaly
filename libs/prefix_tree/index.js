@@ -1,28 +1,32 @@
 import { correctingLayout } from '../correcting_layout.js';
 import { transliterate } from '../transliterate.js';
 
+function unique(arr) {
+    return arr.filter((value, index, self) => self.indexOf(value) === index);
+}
+
 export class PrefixTree {
     constructor(wordList = {}, treeRoot = { data: '' }) {
         this.wordsIdList = Object.keys(wordList);
+        this.tree = treeRoot;
 
         Object.keys(wordList).forEach((wordId) => {
             wordList[wordId].forEach((word) => {
                 // просто слово
                 if (word.indexOf(' ') < 0) {
-                    this.addWord(word, treeRoot, wordId);
+                    this.addWord(word, wordId);
                 } else { // несколько слов
                     word.split(' ').forEach((item) => {
-                        this.addWord(item, treeRoot, wordId);
-                    })
-                    this.addWord(word, treeRoot, wordId);
+                        this.addWord(item, wordId);
+                    });
+                    this.addWord(word, wordId);
                 }
-            })
+            });
         });
-
-        this.tree = treeRoot;
     }
 
-    addWord(word, curNode, wordId = word) {
+    addWord(word, wordId = word) {
+        let curNode = this.tree;
         const letters = word.toLowerCase().split('');
         letters.forEach((symbol, index, all) => {
             if (curNode[symbol] === undefined) {
@@ -45,7 +49,7 @@ export class PrefixTree {
         }
 
         const prase = praseCase.toLowerCase();
-        return this.unique([
+        return unique([
             ...this.findPhrase(prase),
             ...this.findPhrase(correctingLayout(prase)),
             ...this.findPhrase(transliterate(prase)),
@@ -70,7 +74,7 @@ export class PrefixTree {
 
         let finds;
         try {
-            finds = phrase.split(' ').map(item => this.findWord(item));
+            finds = phrase.split(' ').map((item) => this.findWord(item));
         } catch (e) {
             if (e.message === 'not found') {
                 return [];
@@ -110,12 +114,12 @@ export class PrefixTree {
             return 0;
         });
 
-        return this.unique(result);
+        return unique(result);
     }
 
     getNodeIds(node, result = []) {
         if (node.id) {
-            node.id.forEach(item => result.push(item));
+            node.id.forEach((item) => result.push(item));
         }
 
         Object.keys(node).forEach((key) => {
@@ -125,9 +129,5 @@ export class PrefixTree {
         });
 
         return result;
-    }
-
-    unique(arr) {
-        return arr.filter((value, index, self) => self.indexOf(value) === index);
     }
 }

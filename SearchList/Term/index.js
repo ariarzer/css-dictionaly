@@ -1,3 +1,3 @@
-import {Term} from "./Term.jsx";
+import { Term } from './Term.jsx';
 
 export default Term;

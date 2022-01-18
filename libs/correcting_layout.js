@@ -43,6 +43,6 @@ export function correctingLayout(str) {
     return str
         .toLowerCase()
         .split('')
-        .map(item => replacerENG[item] || replacerRU[item] || item)
+        .map((item) => replacerENG[item] || replacerRU[item] || item)
         .join('');
 }

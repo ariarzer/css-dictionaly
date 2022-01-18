@@ -1,20 +1,19 @@
-import React, {useState, useEffect} from "react";
+import React, { useState } from 'react';
 
 import Term from './Term';
 
-import {PrefixTree} from "../libs/prefix_tree/index.js";
-
+import { PrefixTree } from '../libs/prefix_tree';
 
 export function SearchList(props) {
-    let prefixTree;
-    const termsNamesList = Object.keys(props.termsList).reduce((acc, termKey) => {
-        const curTerm = props.termsList[termKey];
-        acc[termKey] = [curTerm["name"], curTerm["name_eng"]];
+    const { termsList, searhPrace: initialSearhPrace } = props;
+    const termsNamesList = Object.keys(termsList).reduce((acc, termKey) => {
+        const curTerm = termsList[termKey];
+        acc[termKey] = [curTerm.name, curTerm.name_eng];
         return acc;
     }, {});
-    prefixTree = new PrefixTree(termsNamesList)
+    const prefixTree = new PrefixTree(termsNamesList);
 
-    const [searhPrace, setSearhPrace] = useState(props.searhPrace || '');
+    const [searhPrace, setSearhPrace] = useState(initialSearhPrace || '');
 
     const handleChange = (event) => {
         setSearhPrace(event.target.value);
@@ -22,12 +21,12 @@ export function SearchList(props) {
 
     const searchedTermsIdsList = prefixTree.find(searhPrace);
     const searchedTermsList = searchedTermsIdsList.map((termId) => {
-        const term = props.termsList[termId];
-        return <Term key={termId} term={term}/>;
-    })
+        const term = termsList[termId];
+        return <Term key={termId} term={term} />;
+    });
 
     return <main>
-        <input onChange={handleChange}/>
+        <input onChange={handleChange} />
         <dl>
             {searchedTermsList}
         </dl>

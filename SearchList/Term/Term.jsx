@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react';
 
 export function Term(props) {
+    const { term } = props;
     return <>
-        <dt>{props.term['name']}</dt>
-        <dd>{props.term['define']}</dd>
+        <dt>{term.name}</dt>
+        <dd>{term.define}</dd>
     </>;
 }
