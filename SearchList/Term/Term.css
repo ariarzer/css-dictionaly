@@ -1,0 +1,16 @@
+.Term {
+
+}
+
+.Term__mainName {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Term__sideName {
+
+}
+
+dt + dd {
+    margin-bottom: 15px;
+}
