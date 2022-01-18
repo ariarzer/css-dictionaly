@@ -11,15 +11,15 @@ export class PrefixTree {
         this.tree = treeRoot;
 
         Object.keys(wordList).forEach((wordId) => {
-            wordList[wordId].forEach((word) => {
+            wordList[wordId].forEach((prase) => {
                 // просто слово
-                if (word.indexOf(' ') < 0) {
-                    this.addWord(word, wordId);
+                if (prase.indexOf(' ') < 0) {
+                    this.addWord(prase, wordId);
                 } else { // несколько слов
-                    word.split(' ').forEach((item) => {
-                        this.addWord(item, wordId);
+                    prase.split(' ').forEach((word) => {
+                        this.addWord(word, wordId);
                     });
-                    this.addWord(word, wordId);
+                    this.addWord(prase, wordId);
                 }
             });
         });
@@ -34,7 +34,7 @@ export class PrefixTree {
             }
             if (index === all.length - 1) {
                 if (curNode[symbol].id) {
-                    curNode[symbol].id.push(word);
+                    curNode[symbol].id.push(wordId);
                 } else {
                     curNode[symbol].id = [wordId];
                 }
