@@ -4,11 +4,13 @@ import Term from './Term';
 
 import { PrefixTree } from '../libs/prefix_tree';
 
+import './SearchList.css';
+
 export function SearchList(props) {
     const { termsList, searhPrace: initialSearhPrace } = props;
     const termsNamesList = Object.keys(termsList).reduce((acc, termKey) => {
         const curTerm = termsList[termKey];
-        acc[termKey] = [curTerm.name, curTerm.name_eng];
+        acc[termKey] = [curTerm.name_ru, curTerm.name_eng];
         return acc;
     }, {});
     const prefixTree = new PrefixTree(termsNamesList);
@@ -26,7 +28,7 @@ export function SearchList(props) {
     });
 
     return <main>
-        <input onChange={handleChange} />
+        <input onChange={handleChange} className="SearchList__input" placeholder="что ищем?..." />
         <dl>
             {searchedTermsList}
         </dl>

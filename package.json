@@ -9,7 +9,7 @@
     "build_complete_list": "node scripts/build_complete_list.js",
     "build": "webpack && npm run build_complete_list",
     "watch": "webpack --watch",
-    "lint": "eslint ."
+    "lint": "eslint --ext .js,.jsx ."
   },
   "keywords": [
     "css",

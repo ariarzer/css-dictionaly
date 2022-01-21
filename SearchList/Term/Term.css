@@ -11,6 +11,10 @@
 
 }
 
+dt {
+    margin-bottom: 0.5em;
+}
+
 dt + dd {
-    margin-bottom: 15px;
+    margin-bottom: 1.5em;
 }

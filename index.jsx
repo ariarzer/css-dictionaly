@@ -3,8 +3,6 @@ import React from 'react';
 
 import SearchList from './SearchList';
 
-import './index.css';
-
 import list from './dist/terms_list.json';
 
 /* eslint-disable no-undef */
