@@ -7,6 +7,7 @@ function unique(arr) {
 
 export class PrefixTree {
     constructor(wordList = {}, treeRoot = { data: '' }) {
+        console.log(wordList);
         this.wordsIdList = Object.keys(wordList);
         this.tree = treeRoot;
 
