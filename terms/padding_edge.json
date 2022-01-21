@@ -1,0 +1,8 @@
+{
+  "name_ru": "внутренний край",
+  "name_eng": "padding edge",
+  "define_ru": "test define",
+  "define_eng": "test eng define",
+  "tag": "css-box-model",
+  "link": "https://www.w3.org/TR/2020/CR-css-box-3-20201222/#padding-edge"
+}
