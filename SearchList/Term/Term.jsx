@@ -1,6 +1,10 @@
 import React from 'react';
 
+import MarkdownIt from 'markdown-it';
+
 import './Term.css';
+
+const md = new MarkdownIt();
 
 export function Term(props) {
     const { term } = props;
@@ -16,6 +20,6 @@ export function Term(props) {
                 )
             </span>
         </dt>
-        <dd className="Term__define">{term.define_ru}</dd>
+        <dd className="Term__define" dangerouslySetInnerHTML={{ __html: md.render(term.define_ru) }} />
     </>;
 }
