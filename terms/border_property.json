@@ -1,0 +1,8 @@
+{
+  "name_ru": "свойства border",
+  "name_eng": "border properties",
+  "define_ru": "Свойства border определяют толщину, цвет и стиль заполнения области [границы](/border) бокса.",
+  "define_eng": "The border properties specify the thickness of the border area of a box, as well as its drawing style and color. ",
+  "tag": "css-box-model",
+  "link": "https://www.w3.org/TR/css-box-3/#border-properties"
+}

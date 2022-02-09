@@ -1,0 +1,8 @@
+{
+  "name_ru": "область заполнения",
+  "name_eng": "padding area",
+  "define_ru": "Область, которая содержит заполнение (padding) бокса. Внутренний край этой области совпадает [внутренним краем](/inner_edge), внешний - с [краем заполнения](/padding_edge). Размер области может быть нулевым, если `padding` для всех сторон разрешено как 0.",
+  "define_eng": "Area which contain a padding of the box.",
+  "tag": "css-box-model",
+  "link": "https://www.w3.org/TR/css-box-3/#padding-area"
+}

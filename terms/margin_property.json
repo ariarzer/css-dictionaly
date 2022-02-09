@@ -1,0 +1,8 @@
+{
+  "name_ru": "свойства margin",
+  "name_eng": "margin properties",
+  "define_ru": "Свойство margin регулирует толщину [области отступов](/margin-area) бокса.",
+  "define_eng": "The margin properties specify the thickness of the margin area of a box.",
+  "tag": "css-box-model",
+  "link": "https://www.w3.org/TR/css-box-3/#margin-properties"
+}

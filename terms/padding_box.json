@@ -1,0 +1,8 @@
+{
+  "name_ru": "бокс заполнения",
+  "name_eng": "padding box",
+  "define_ru": "Четыре стороны [края заполнения](/padding_edge) вместе определяют **бокс заполнения** блока.",
+  "define_eng": "The four sides of the padding edge together define the box’s padding box, which contains both the content and padding areas.",
+  "tag": "css-box-model",
+  "link": "https://www.w3.org/TR/css-box-3/#padding-box"
+}

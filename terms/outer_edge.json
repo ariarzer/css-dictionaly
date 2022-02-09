@@ -1,8 +1,0 @@
-{
-  "name_ru": "край заполнения",
-  "name_eng": "padding edge",
-  "define_ru": "Внешний край идет по границе margin'ов блока. Если ширина поля на данной стороне равна нулю, край поля совпадает с краем границы на этой стороне. Четыре стороны внешнего края вместе определяют margin-бокс, который содержит все содержимое блока, отступы, границы и область margin'ов.",
-  "define_eng": "The margin edge surrounds the box’s margin. If the margin has zero width on a given side, the margin edge coincides with the border edge on that side. The four sides of the margin edge together define the box’s margin box, which contains the all of the box’s content, padding, border, and margin areas.",
-  "tag": "css-box-model",
-  "link": "https://www.w3.org/TR/2020/CR-css-box-3-20201222/#padding-edge"
-}

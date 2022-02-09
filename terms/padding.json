@@ -1,0 +1,8 @@
+{
+  "name_ru": "заполнение",
+  "name_eng": "padding",
+  "define_ru": "Заполнение вставляется между [краем содержимого](/content_edge) и [краем заполнения](/padding_edge) блока, обеспечивая расстояние между содержимым и [границей](/border).",
+  "define_eng": "Padding is inserted between the content edge and the padding edge of a box, providing spacing between the content and the border.",
+  "tag": "css-box-model",
+  "link": "https://www.w3.org/TR/2020/CR-css-box-3-20201222/#padding"
+}

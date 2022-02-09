@@ -1,0 +1,8 @@
+{
+  "name_ru": "граница",
+  "name_eng": "border",
+  "define_ru": "Границы заполняют [область границы](/border-area), чтобы визуально очертить края бокса.",
+  "define_eng": "Borders fill the [border area](/border-area), to visually delineate the edges of the box.",
+  "tag": "css-box-model",
+  "link": "https://www.w3.org/TR/2020/CR-css-box-3-20201222/#border"
+}

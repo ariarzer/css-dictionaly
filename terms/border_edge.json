@@ -1,7 +1,7 @@
 {
-  "name_ru": "край по границе",
+  "name_ru": "край границы",
   "name_eng": "border edge",
-  "define_ru": "Край по границе идет по внешней стороне границы бокса. Если граница имеет нулевую ширину на данной стороне, то край границы совпадает с краем заполнения на этой стороне. Четыре стороны края по границы вместе определяют граничный бокс, который содержит контент блока, отступы и области границ.",
+  "define_ru": "Край границы идет по внешней стороне [границы](/border) бокса. Если граница имеет нулевую ширину на данной стороне, то край границы совпадает с краем заполнения на этой стороне. Четыре стороны края границы вместе определяют граничный бокс, который содержит контент блока, отступы (padding) и области границ.",
   "define_eng": "The border edge surrounds the box’s border. If the border has zero width on a given side, the border edge coincides with the padding edge on that side. The four sides of the border edge together define the box’s border box, which contains the box’s content, padding, and border areas.",
   "tag": "css-box-model",
   "link": "https://www.w3.org/TR/2020/CR-css-box-3-20201222/#border-edge"

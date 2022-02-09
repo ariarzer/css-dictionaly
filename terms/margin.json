@@ -1,0 +1,8 @@
+{
+  "name_ru": "отступ",
+  "name_eng": "margin",
+  "define_ru": "Отступы окружают края бокса, обеспечивая расстояние между боксами.",
+  "define_eng": "Margins surround the border edge of a box, providing spacing between boxes.",
+  "tag": "css-box-model",
+  "link": "https://www.w3.org/TR/css-box-3/#margin"
+}

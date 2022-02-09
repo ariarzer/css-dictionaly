@@ -1,0 +1,8 @@
+{
+  "name_ru": "бокс отступов",
+  "name_eng": "margin box",
+  "define_ru": "Четыре стороны [внешнего края](/margin_edge) вместе определяют бокс отступов блока, которое содержит все содержимое блока, отступы, границы и области отступов.",
+  "define_eng": "The four sides of the margin edge together define the box’s margin box, which contains the all of the box’s content, padding, border, and margin areas.",
+  "tag": "css-box-model",
+  "link": "https://www.w3.org/TR/css-box-3/#margin-box"
+}

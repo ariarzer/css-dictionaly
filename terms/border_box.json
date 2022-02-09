@@ -1,0 +1,8 @@
+{
+  "name_ru": "граничный бокс",
+  "name_eng": "border box",
+  "define_ru": "Четыре стороны [края границы](/border_edge) вместе определяют **граничный бокс** блока, который содержит содержимое блока, [заполнение](/padding) и [области границ](/border_area).",
+  "define_eng": "The four sides of the border edge together define the box’s border box, which contains the box’s content, padding, and border areas.",
+  "tag": "css-box-model",
+  "link": "https://www.w3.org/TR/2020/CR-css-box-3-20201222/#border-box"
+}

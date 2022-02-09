@@ -1,0 +1,8 @@
+{
+  "name_ru": "контентный бокс",
+  "name_eng": "content box",
+  "define_ru": "Четыре стороны [внутреннего края](/content_edge) вместе определяют **контентный бокс** блока.",
+  "define_eng": "The four sides of the content edge together define the box’s content box.",
+  "tag": "css-box-model",
+  "link": "https://www.w3.org/TR/2020/CR-css-box-3-20201222/#content-box"
+}

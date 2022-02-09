@@ -1,8 +1,8 @@
 {
-  "name_ru": "внутренний край",
+  "name_ru": "край заполнения",
   "name_eng": "padding edge",
-  "define_ru": "test define",
-  "define_eng": "test eng define",
+  "define_ru": "Край заполнения окружает padding блока. Если [заполнение](/padding) имеет нулевую ширину на данной стороне, край заполнения совпадает с [краем содержимого](/inner-edge) на этой стороне. Четыре стороны края заполнения вместе определяют [бокс заполнения](/padding-box) блока, которое содержит как содержимое, так и области заполнения. ",
+  "define_eng": "The padding edge surrounds the box’s padding. If the padding has zero width on a given side, the padding edge coincides with the content edge on that side. The four sides of the padding edge together define the box’s padding box, which contains both the content and padding areas.",
   "tag": "css-box-model",
   "link": "https://www.w3.org/TR/2020/CR-css-box-3-20201222/#padding-edge"
 }

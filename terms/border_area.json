@@ -1,0 +1,8 @@
+{
+  "name_ru": "область границ",
+  "name_eng": "border area",
+  "define_ru": "Область, которая содержит [границы](/border) бокса. Внутренний край этой области совпадает c [краем заполнения](/padding_edge), внешний - с [краем границы](/border_edge). Размер области может быть нулевым, если `border-width` разрешено как 0.",
+  "define_eng": "Area which contain a border of the box.",
+  "tag": "css-box-model",
+  "link": "https://www.w3.org/TR/css-box-3/#border-area"
+}

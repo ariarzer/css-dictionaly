@@ -1,8 +1,0 @@
-{
-  "name_ru": "внутренний край",
-  "name_eng": "inner edge",
-  "define_ru": "Край содержимого, или внутренний край - это край прямоугольника, определяемого шириной и высотой блока, которые зависят от контента элемента и/или размера содержащего его блока. Четыре внутренних вместе образуют прямоугольник, который называют полем содержимого блока.",
-  "define_eng": "The content edge surrounds the rectangle given by the width and height of the box, which often depend on the element’s content and/or its containing block size. The four sides of the content edge together define the box’s content box.",
-  "tag": "css-box-model",
-  "link": "https://www.w3.org/TR/2020/CR-css-box-3-20201222/#inner-edge"
-}

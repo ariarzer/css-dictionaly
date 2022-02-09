@@ -1,0 +1,8 @@
+{
+  "name_ru": "область отступов",
+  "name_eng": "margin area",
+  "define_ru": "Область, которая содержит отступы (margin) бокса. Внутренний край этой области совпадает [краем границы](/border_edge), внешний - с [краем отступов](/margin_edge). Размер области может быть нулевым, если `margin` для всех сторон разрешено как 0.",
+  "define_eng": "Area which contain a margin of the box.",
+  "tag": "css-box-model",
+  "link": "https://www.w3.org/TR/css-box-3/#margin-area"
+}

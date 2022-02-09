@@ -1,0 +1,8 @@
+{
+  "name_ru": "свойства padding",
+  "name_eng": "padding properties",
+  "define_ru": "Свойства padding регулирует толщину [области заполнения](/padding-area) бокса.",
+  "define_eng": "The padding properties specify the thickness of the padding area of a box.",
+  "tag": "css-box-model",
+  "link": "https://www.w3.org/TR/css-box-3/#padding-properties"
+}
