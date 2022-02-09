@@ -1,5 +1,6 @@
-.Term {
-
+.Term__define a {
+    color: CanvasText;
+    text-decoration-color: GrayText;
 }
 
 .Term__mainName {
@@ -17,4 +18,10 @@ dt {
 
 dt + dd {
     margin-bottom: 1.5em;
+}
+
+.Term__tag {
+    color: GrayText;
+    margin-left: 1ch;
+    text-decoration: none;
 }
