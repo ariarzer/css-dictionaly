@@ -8,6 +8,7 @@ const md = new MarkdownIt();
 
 export function Term(props) {
     const { term } = props;
+    const tagLink = `/#${term.tag}`;
     return <>
         <dt>
             <span className="Term__mainName">{term.name_ru}</span>
@@ -19,6 +20,10 @@ export function Term(props) {
                 </a>
                 )
             </span>
+            <a href={tagLink} className="Term__tag">
+                #
+                {term.tag}
+            </a>
         </dt>
         <dd className="Term__define" dangerouslySetInnerHTML={{ __html: md.render(term.define_ru) }} />
     </>;
