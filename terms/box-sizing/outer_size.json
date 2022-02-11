@@ -1,0 +1,8 @@
+{
+  "name_ru": "внутренний размер",
+  "name_eng": "outer size",
+  "define_ru": "[Размер](/size) [бокса отступов](/margin_box) заданного бокса.",
+  "define_eng": "The margin-box size of a box.",
+  "tag": "css-box-sizing",
+  "link": "https://drafts.csswg.org/css-sizing-3/#outer-size"
+}

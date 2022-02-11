@@ -1,0 +1,8 @@
+{
+  "name_ru": "определенный размер",
+  "name_eng": "definite size",
+  "define_ru": "Размер, который можно определить без раскладки документа. То есть <length>, размер текста (без учета переноса строк), размер изначального содержащего блока или <percentage> или другая формула, которая разрешается исключительно для определенных размеров. Кроме того, размер содержащего блока абсолютно позиционированного элемента всегда определен по отношению к этому элементу.",
+  "define_eng": "A size that can be determined without performing layout.  that is, a <length>, a measure of text (without consideration of line-wrapping), a size of the initial containing block, or a <percentage> or other formula (such the “stretch-fit” sizing of non-replaced blocks [CSS2]) that is resolved solely against definite sizes. Additionally, the size of the containing block of an absolutely positioned element is always definite with respect to that element.",
+  "tag": "css-box-sizing",
+  "link": "https://drafts.csswg.org/css-sizing-3/#definite"
+}

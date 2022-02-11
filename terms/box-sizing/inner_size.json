@@ -1,0 +1,8 @@
+{
+  "name_ru": "внутренний размер",
+  "name_eng": "inner size",
+  "define_ru": "[Размер](/size) [контентного бокса](/content_box) заданного бокса.",
+  "define_eng": "The content-box size of a box.",
+  "tag": "css-box-sizing",
+  "link": "https://drafts.csswg.org/css-sizing-3/#inner-size"
+}

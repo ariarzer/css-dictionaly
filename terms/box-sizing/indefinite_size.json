@@ -1,0 +1,8 @@
+{
+  "name_ru": "неопределенный размер",
+  "name_eng": "indefinite size",
+  "define_ru": "Размер, который не определен. Неопределенное [доступное пространство](/available_space) по существу бесконечно.",
+  "define_eng": "A size that is not definite. Indefinite available space is essentially infinite.",
+  "tag": "css-box-sizing",
+  "link": "https://drafts.csswg.org/css-sizing-3/#indefinite"
+}
