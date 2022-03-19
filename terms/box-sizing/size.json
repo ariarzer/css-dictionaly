@@ -1,7 +1,7 @@
 {
   "name_ru": "размер",
   "name_eng": "size",
-  "define_ru": "Одно- или двумерное измерение: размер блока и/или инлайновый размер; альтернативно ширина и/или высота.",
+  "define_ru": "Одно- или двумерное измерение: блочный размер и/или инлайновый размер; альтернативно ширина и/или высота.",
   "define_eng": "A one- or two-dimensional measurement: a block size and/or inline size; alternatively a width and/or height.",
   "tag": "css-box-sizing",
   "link": "https://drafts.csswg.org/css-sizing-3/#size"
