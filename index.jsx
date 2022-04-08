@@ -4,8 +4,17 @@ import React from 'react';
 import SearchList from './SearchList';
 
 import list from './dist/terms_list.json';
+import listBySection from './dist/terms_list_by_section.json';
 
 /* eslint-disable no-undef */
 const elem = document.getElementById('root');
 
-ReactDOM.render(<SearchList termsList={list} />, elem);
+let renderList = list;
+
+const urlParams = new URLSearchParams(window.location.search);
+
+if (urlParams.get('section')) {
+    renderList = listBySection[urlParams.get('section')];
+}
+
+ReactDOM.render(<SearchList termsList={renderList} />, elem);

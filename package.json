@@ -7,7 +7,9 @@
     "test": "exit 0",
     "build_tree": "node scripts/build_tree.js",
     "build_complete_list": "node scripts/build_complete_list.js",
-    "build": " npm run build_complete_list && webpack",
+    "build_list_by_section": "node scripts/build_list_by_section.js",
+    "prebuild": "npm run build_complete_list && npm run build_list_by_section",
+    "build": "npm run prebuild && webpack",
     "watch": "webpack --watch",
     "lint": "eslint --ext .js,.jsx ."
   },

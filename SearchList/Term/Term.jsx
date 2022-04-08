@@ -8,7 +8,7 @@ const md = new MarkdownIt();
 
 export function Term(props) {
     const { term } = props;
-    const tagLink = `/#${term.tag}`;
+    const tagLink = `?section=${term.tag}`;
     return <>
         <dt>
             <span className="Term__mainName">{term.name_ru}</span>
