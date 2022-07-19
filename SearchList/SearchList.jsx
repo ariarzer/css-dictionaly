@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
+import PrefixTree from 'prefix-tree';
 
 import Term from './Term';
-
-import { PrefixTree } from '../libs/prefix_tree';
 
 import './SearchList.css';
 
