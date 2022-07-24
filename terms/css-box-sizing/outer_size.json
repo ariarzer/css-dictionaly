@@ -1,5 +1,5 @@
 {
-  "name_ru": "внутренний размер",
+  "name_ru": "внешний размер",
   "name_eng": "outer size",
   "define_ru": "[Размер](/size) [бокса отступов](/margin_box) заданного бокса.",
   "define_eng": "The margin-box size of a box.",
